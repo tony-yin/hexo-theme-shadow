@@ -4,13 +4,13 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  # 主页: /archives/
   所有文章: /archives/
-  玩转开发工具: /categories/开发工具/
-  玩转数码: /categories/digital
-  算法学习: /categories/algorithm
+  技术文章: /categories/tech
+  感悟总结: /categories/summary
+  阅读翻译: /categories/read
+  好文转载: /categories/reprinted
+  生活随笔: /categories/life
   关于我: /about/
-# 静心阅读: /tags
 
 # Link to your avatar | 填写头像地址
 avatar: /img/avatar.png
@@ -40,13 +40,18 @@ disqus:
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
 changyan:
-  on: true
+  on: false
   appid: xxxx
   conf: xxxxxxxxx
   # 是否开启畅言评论，
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 畅言评论在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
-
+reward:
+  on: true
+  # 是否开启打赏
+  # 这里的打赏是基于畅言的，所以必须要开启畅言再开启这里的打赏才可以生效
+  # 打赏还有一些设置需要去畅言后台设置
+  
 # >>> Style Customisation 样式自定义 <<<
 
 # Background | 背景
@@ -55,8 +60,8 @@ changyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  background_sum: 1
-  background_image: 1
+  background_sum: 4
+  background_image: 4
 
 highlight_style:
   on: true
@@ -81,7 +86,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 查看更多 #修改more>>的文字
+excerpt_link: 阅读全文 #修改more>>的文字
 
 # 是否显示边栏中的搜索框（站内搜索）
 # Search Box in left column
@@ -100,11 +105,9 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  csdn: http://blog.csdn.net/baidu_21483933
-  segmentfault: https://segmentfault.com/blog/maocg_web
-  简书: http://www.jianshu.com/users/eb37ef89c746/latest_articles
+  xxx: http://www.baidu.com
 #是否开启“关于我”。
-aboutme: 爱动漫,爱游戏,爱编程,爱运动,爱的太多了!
+aboutme: 江苏南京，熟悉Python/PHP，目前研究Ceph分布式存储，邮箱：1241484989@qq.com
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -153,3 +156,10 @@ TipTitle: true
 
 # Loading
 # Loading: true
+
+# 背景音乐 
+music:
+  on: true
+  url: //music.163.com/outchain/player?type=0&id=2021839040&auto=1&height=32
+  # 可以通过网易云音乐获取外链，替换上面的链接即可
+
