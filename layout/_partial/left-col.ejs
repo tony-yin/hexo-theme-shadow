@@ -123,6 +123,9 @@
                                 <a class="fl <%= i %>"  target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
                             <%}%>
                         </ul>
+			<% if (theme.music.on){ %>
+			    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src=<%=theme.music.url%>></iframe>
+			<% } %>
                     </nav>
                 </section>
                 <%if(theme.tagcloud){%>
