@@ -2,7 +2,7 @@
 
 ## 关于主题
 
-本主题是根据[balck-blue][1]主题扩展而成，所做扩展如下：
+本主题是根据‘balck-blue‘主题扩展而成，所做扩展如下：
 
 1. 添加左侧栏`segmentfault`小图标
 2. 更新`requirejs`源为`https`，避免`https`网站引入`http`脚本时浏览器告警
