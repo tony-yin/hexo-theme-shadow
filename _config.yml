@@ -52,6 +52,21 @@ reward:
   # 这里的打赏是基于畅言的，所以必须要开启畅言再开启这里的打赏才可以生效
   # 打赏还有一些设置需要去畅言后台设置
   
+gitalk:
+  on: true
+  ClientID: xxx
+  ClientSecret: xxx
+  repo: 'tony-yin.github.io'
+  owner: 'tony-yin'
+  admin: ['tony-yin']
+  ID: location.pathname
+  labels: ['Gitalk']
+  perPage: 15
+  pagerDirection: last
+  createIssueManually: true
+  distractionFreeMode: false
+  lazy: true
+
 # >>> Style Customisation 样式自定义 <<<
 
 # Background | 背景
@@ -107,7 +122,7 @@ tagcloud: true
 friends:
   xxx: http://www.baidu.com
 #是否开启“关于我”。
-aboutme: 江苏南京，熟悉Python/PHP，目前研究Ceph分布式存储，邮箱：1241484989@qq.com
+aboutme: 江苏南京，熟悉Python、分布式、高可用等技术栈，目前从事Ceph分布式存储相关工作，邮箱：1241484989@qq.com
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -159,7 +174,7 @@ TipTitle: true
 
 # 背景音乐 
 music:
-  on: true
+  on: false
   url: //music.163.com/outchain/player?type=0&id=2021839040&auto=1&height=32
   # 可以通过网易云音乐获取外链，替换上面的链接即可
 
