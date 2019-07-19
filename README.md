@@ -24,6 +24,7 @@
 14. 书签区域样式修改
 15. 项目编号样式修改
 16. `table`样式修改
+17. 新增`Gitalk`支持
 
 ## 使用
 
@@ -102,7 +103,20 @@ reward:
   # 是否开启打赏
   # 这里的打赏是基于畅言的，所以必须要开启畅言再开启这里的打赏才可以生效
   # 打赏还有一些设置需要去畅言后台设置
-  
+gitalk:
+  on: true
+  ClientID: xxx
+  ClientSecret: xxx
+  repo: 'tony-yin.github.io'
+  owner: 'tony-yin'
+  admin: ['tony-yin']
+  ID: location.pathname
+  labels: ['Gitalk']
+  perPage: 15
+  pagerDirection: last
+  createIssueManually: true
+  distractionFreeMode: false
+  lazy: true
 # >>> Style Customisation 样式自定义 <<<
 
 # Background | 背景
